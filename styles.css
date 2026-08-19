@@ -1,14 +1,43 @@
 .contain {
-    width: 90%;
-    margin: auto;
-    padding: 5px;
-};
+    background-color: hsl(47, 88%, 63%);
+    width: 60rem;
+    height: 50rem;
+}
 
-#insides {
-    background-color: rgb(119, 59, 59);
+.insides {
+    background-color: white;
+    border: solid black 1px;
+    height: 33rem;
+    width: 23rem;
     margin: auto;
+    padding-left: 30px;
+    border-radius: 5px;
+
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.learn {
+    background-color: hsl(47, 88%, 63%);
+    width: 4em;
+    height: 22px;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+
+.tag {
+    display: flex;
+}
+
+#icon {
+    padding-right: 5px;
+}
+
+#illu {
     border-radius: 10px;
-    padding: 5px;
-    border: solid black;
-};
-
+    padding-top: 1em;
+}
