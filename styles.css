@@ -1,0 +1,14 @@
+.contain {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+};
+
+#insides {
+    background-color: rgb(119, 59, 59);
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    border: solid black;
+};
+
